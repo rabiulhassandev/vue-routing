@@ -19,6 +19,9 @@
                     <li class="nav-item">
                         <router-link :to="{name: 'contact-us'}" class="nav-link">Contact Us</router-link>
                     </li>
+                    <li class="nav-item">
+                        <router-link :to="{name: 'login'}" class="nav-link">Login</router-link>
+                    </li>
                 </ul>
             </div>
         </div>

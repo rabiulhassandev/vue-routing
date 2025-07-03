@@ -5,7 +5,7 @@
   <Header></Header>
   
   <!-- contents -->
-  <div class="container" style="min-height: 80vh;">
+  <div class="container" style="min-height: 70vh;">
     <router-view></router-view>
   </div>
 
