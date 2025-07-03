@@ -1,6 +1,6 @@
 <template>
     <div class="text-center pt-5">
-        <h3>404</h3>
-        <p>page not found!</p>
+        <h3>403</h3>
+        <p>Access denided!</p>
     </div>
 </template>
