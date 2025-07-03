@@ -1,0 +1,16 @@
+import ContactUs from "@/components/Home/ContactUs.vue";
+import HomePage from "@/components/Home/HomePage.vue";
+import Products from "@/components/Products/Products.vue";
+import { createRouter, createWebHistory } from "vue-router";
+
+const routes = createRouter({
+  history: createWebHistory(),
+    routes: [
+      { path: '/', component: HomePage },
+      { path: '/contact-us', component: ContactUs },
+      { path: '/products', component: Products },
+    ]
+});
+
+
+export default routes;

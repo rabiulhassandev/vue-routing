@@ -1,3 +1,3 @@
 <template>
-  <h1>Hello Vue Routing!</h1>
+  <router-view></router-view>
 </template>
